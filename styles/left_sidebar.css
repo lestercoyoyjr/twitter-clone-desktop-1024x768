@@ -1,9 +1,9 @@
 .left-sidebar{
     background-color: white;
     position: fixed;
-    right: 0;
+    left: 0;
     bottom: 0;
     top: 0;
-    width: 375px;
-    border-left: 1px solid rgb(211, 210, 210);
+    width: 300px;
+    border-right: 1px solid rgb(211, 210, 210);
 }
