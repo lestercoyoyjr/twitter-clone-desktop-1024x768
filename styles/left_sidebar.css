@@ -12,7 +12,6 @@
     margin: 0;
     padding-top: 10px;
 }
-
 .left-sidebar img{
     width: 25px;
 }
@@ -38,11 +37,26 @@
     display: flex;
     justify-content: start;
 }
+.left-sidebar_options,
+.twitter-logo{
+    margin-left: -75px;
+}
 .profile_pic_left-sidebar{
     object-fit: cover; 
     border-radius: 20px; 
     height: 25px;
 }
+.tweet-button{
+    margin-top: 8px;
+    color: white;
+    background-color: #1CA1F1;
+    padding: 15px 90px 15px 90px;
+    border: none;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
 /* EFFECTS */
 .left-sidebar_options:hover .text-left_sidebar{
     color: #1CA1F1;
@@ -58,4 +72,7 @@
 }
 .left-sidebar_options:hover .profile_pic_left-sidebar{
     filter: none;
+}
+.tweet-button:active{
+    opacity: 0.4;
 }
