@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     margin: 0;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .left-sidebar img{
@@ -21,6 +21,8 @@
     flex-direction: row;
     margin-bottom: 20px;
     width: 115px;
+    cursor: pointer;
+    transition: opacity 0.15s, color;
 }
 .text-left_sidebar{
     display: flex;
@@ -35,4 +37,25 @@
     margin-bottom: 20px;
     display: flex;
     justify-content: start;
+}
+.profile_pic_left-sidebar{
+    object-fit: cover; 
+    border-radius: 20px; 
+    height: 25px;
+}
+/* EFFECTS */
+.left-sidebar_options:hover .text-left_sidebar{
+    color: #1CA1F1;
+}
+.left-sidebar_options:active .text-left_sidebar{
+    opacity: 0.4;
+}
+.left-sidebar_options:hover img{
+    filter: invert(.3) sepia(1) saturate(5) hue-rotate(170deg);
+}
+.left-sidebar_options:active img{
+    opacity: 0.4;
+}
+.left-sidebar_options:hover .profile_pic_left-sidebar{
+    filter: none;
 }
