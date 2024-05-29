@@ -1,0 +1,9 @@
+.tweet-posting{
+    background-color: white;
+    height: 150px;
+    border-bottom: 1px solid rgb(211, 210, 210);
+    margin-bottom: 10px;
+}
+.tweet-post{
+    padding: 5px 10px 5px 10px;
+}

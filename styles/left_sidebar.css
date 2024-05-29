@@ -1,0 +1,38 @@
+.left-sidebar{
+    background-color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 300px;
+    border-right: 1px solid rgb(211, 210, 210);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.left-sidebar img{
+    width: 25px;
+}
+.left-sidebar_options{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    width: 115px;
+}
+.text-left_sidebar{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.twitter-logo{
+    width: 115px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: start;
+}
