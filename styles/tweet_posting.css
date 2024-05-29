@@ -22,3 +22,20 @@
     filter: invert(.3) sepia(1) saturate(5) hue-rotate(170deg);
     margin-right: 15px;
 }
+.div-2{
+    display: flex;
+    flex-direction: row;
+}
+.div-1_profile-pic{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+.div-1_profile-pic img{
+    margin-top: 20px;
+    filter: none;
+    width: 50px;
+    object-fit: cover; 
+    border-radius: 25px; 
+    height: 50px;
+}
