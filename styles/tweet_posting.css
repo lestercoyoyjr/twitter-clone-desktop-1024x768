@@ -3,4 +3,22 @@
     height: 150px;
     border-bottom: 1px solid rgb(211, 210, 210);
     margin-bottom: 10px;
+    padding: 5px 0px 5px 0px;
+}
+.div-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(211, 210, 210);
+    padding: 10px 15px 10px 15px;
+}
+.div-1 p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.tweet-posting img {
+    width: 25px;
+    filter: invert(.3) sepia(1) saturate(5) hue-rotate(170deg);
+    margin-right: 15px;
 }
