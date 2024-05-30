@@ -21,17 +21,14 @@
 .tweet-posting img {
     width: 25px;
     filter: invert(.3) sepia(1) saturate(5) hue-rotate(170deg);
-    margin-right: 15px;
 }
 
 .div-2{
     display: flex;
     flex-direction: row;
-    background-color: lightslategray;
     height: 105px;
 }
 .div-2a_profile-pic{
-    background-color: lightgreen;
     width: 75px;
     height:auto;
     display: flex;
@@ -41,8 +38,8 @@
 .div-2a_profile-pic img{
     margin: 0;
     filter: none;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     object-fit: cover; 
     border-radius: 30px; 
 }
@@ -65,8 +62,27 @@
     font-family: 'Segoe UI', Roboto, sans-serif;
 }
 .class-2{
-    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 45px;
     padding-left: 5px;
+}
+.class-2 img{
+    margin: 0;
+    width: 20px;
+    filter: invert(.3) sepia(1) saturate(5) hue-rotate(170deg);
+    margin-right: 8px;
+}
+.class-2 button{
+    margin: 0px 15px 10px 0px;
+    padding: 0px 20px 0px 20px;
+    background-color: #1CA1F1;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
 }
 /* .div-2b_status{
     display: flex;

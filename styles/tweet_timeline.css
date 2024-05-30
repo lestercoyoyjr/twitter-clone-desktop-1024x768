@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     background-color: white;
+    margin-top: 15px;
 }
 .tweet-post{
     border-top: 1px solid rgb(211, 210, 210);
