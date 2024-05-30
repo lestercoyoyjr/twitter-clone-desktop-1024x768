@@ -3,7 +3,99 @@
     height: 150px;
     border-bottom: 1px solid rgb(211, 210, 210);
     margin-bottom: 10px;
+    padding: 5px 0px 5px 0px;
 }
-.tweet-post{
-    padding: 5px 10px 5px 10px;
+.div-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(211, 210, 210);
+    padding: 10px 15px 10px 15px;
+    height: 30px;
 }
+.div-1 p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.tweet-posting img {
+    width: 25px;
+    filter: invert(.3) sepia(1) saturate(5) hue-rotate(170deg);
+}
+
+.div-2{
+    display: flex;
+    flex-direction: row;
+    height: 105px;
+}
+.div-2a_profile-pic{
+    width: 75px;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.div-2a_profile-pic img{
+    margin: 0;
+    filter: none;
+    width: 50px;
+    height: 50px;
+    object-fit: cover; 
+    border-radius: 30px; 
+}
+.div-2b_container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex: 1;
+}
+.class-1{
+    display: flex;
+    flex: 1;
+}
+.tweet-input{
+    display: flex;
+    flex: auto;
+    border: none;
+    padding-left: 5px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+.class-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 45px;
+    padding-left: 5px;
+}
+.class-2 img{
+    margin: 0;
+    width: 20px;
+    filter: invert(.3) sepia(1) saturate(5) hue-rotate(170deg);
+    margin-right: 8px;
+}
+.class-2 button{
+    margin: 0px 15px 10px 0px;
+    padding: 0px 20px 0px 20px;
+    background-color: #1CA1F1;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+/* .div-2b_status{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.div-2b_buttons{
+    display: flex;
+    flex-direction: row;
+}
+.div-2c_uploads{
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    filter: invert(.3) sepia(1) saturate(5) hue-rotate(170deg);
+} */
