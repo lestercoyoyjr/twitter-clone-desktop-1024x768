@@ -4,8 +4,19 @@
     background-color: white;
     margin-top: 15px;
 }
+
+/* TWEET POST */
 .tweet-post{
     border-top: 1px solid rgb(211, 210, 210);
-    height: 1fr;
-    padding: 5px 10px 5px 10px;
+    display: flex;
+    flex-direction: row;
+}
+.tweet-post-profile_pic{
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.tweet-post-content{
+    flex: 1;
 }

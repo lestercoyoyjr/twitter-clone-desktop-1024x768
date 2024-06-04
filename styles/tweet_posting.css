@@ -28,14 +28,16 @@
     flex-direction: row;
     height: 105px;
 }
-.div-2a_profile-pic{
+.div-2a_profile-pic,
+.tweet-post-profile_pic{
     width: 75px;
     height:auto;
     display: flex;
     justify-content: center;
     padding-top: 10px;
 }
-.div-2a_profile-pic img{
+.div-2a_profile-pic img,
+.tweet-post-profile_pic img{
     margin: 0;
     filter: none;
     width: 50px;
@@ -84,18 +86,3 @@
     color: white;
     font-size: 15px;
 }
-/* .div-2b_status{
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-}
-.div-2b_buttons{
-    display: flex;
-    flex-direction: row;
-}
-.div-2c_uploads{
-    display: flex;
-    flex-direction: row;
-    width: 20px;
-    filter: invert(.3) sepia(1) saturate(5) hue-rotate(170deg);
-} */
