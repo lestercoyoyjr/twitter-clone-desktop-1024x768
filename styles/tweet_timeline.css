@@ -59,7 +59,7 @@
 .twt-img img{
     flex: 1;
     object-fit:cover;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .twt-img-grid-2{
     margin: 0;
@@ -75,12 +75,12 @@
     object-fit: cover;
 }
 #img-top-left{
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     height: 350px;
 }
 #img-top-right{
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     height: 350px;
 }
