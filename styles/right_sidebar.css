@@ -17,8 +17,7 @@
 .trending-container,
 .who-to-follow-container{
     margin: 0;
-    width: 300px;
-    background-color: rgb(238, 238, 238);   
+    width: 300px; 
 }
 
 .search-container{
@@ -28,6 +27,7 @@
     border-radius: 25px;
     display: flex;
     flex-direction: row;
+    background-color: rgb(238, 238, 238);  
 }
 .search-button{
     width: 66px;
@@ -52,12 +52,56 @@
     outline: none;
 }
 
-
+/* Trending */
 .trending-container{
-    height: 500px;
+    height: 1fr;
     border-radius: 20px;
     margin-bottom: 10px;
+    background-color: rgb(236, 242, 245);  
 }
+.tc-upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.tc-upper p{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+.tc-upper img{
+    width: 17px;
+    filter: invert(.3) sepia(3) saturate(1) hue-rotate(170deg);
+    margin: 0;
+}
+.trending{
+    height: 1fr;
+    padding: 10px;
+    border: 1px solid rgb(211, 210, 210);
+    border-bottom: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.trending-mini{
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.trending-strong{
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.show-more p{
+    margin: 0;
+    padding: 10px;
+    padding-left: 20px;
+    color: #00AAEC;
+    cursor: pointer;
+}
+
+/* Who-to-follow container */
 .who-to-follow-container{
     height: 500px;
     border-radius: 20px;
