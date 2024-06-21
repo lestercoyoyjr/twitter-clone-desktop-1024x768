@@ -102,12 +102,49 @@
     cursor: pointer;
 }
 .trending-link{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
     height: 80px;
-    width: 1fr;
     border: 1px solid rgb(211, 210, 210);
     border-radius: 10px;
 }
+.t-link-content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 10px;
+    padding: 20px;
+    padding-left: 10px;
+}
+.t-link-image{
+    display: flex;
+    width: 105px;
+    height: 70px;
+}
+.t-link-image img{
+    flex: 1;
+    object-fit: contain;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 
+
+.t-link-content h3,
+.t-link-content p{
+    margin: 0;
+}
+/*
+.t-link-image{
+    display: flex;
+    width: 50px;
+}
+.t-link-image img{
+    flex: 1;
+    object-fit: contain;
+    width: 50px;
+} */
 /* Who-to-follow container */
 .who-to-follow-container{
     height: 500px;
