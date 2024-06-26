@@ -80,8 +80,8 @@
     filter: invert(.3) sepia(3) saturate(1) hue-rotate(170deg);
     margin: 0;
 }
-.trending{
-    height: 1fr;
+.trending,
+.who-to-follow_profile_container{
     padding: 10px;
     border: 1px solid rgb(230, 230, 230);
     border-bottom: none;
@@ -136,24 +136,46 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-
-
 .t-link-content h3,
 .t-link-content p{
     margin: 0;
 }
-/*
-.t-link-image{
-    display: flex;
-    width: 50px;
-}
-.t-link-image img{
-    flex: 1;
-    object-fit: contain;
-    width: 50px;
-} */
+
 /* Who-to-follow container */
 .who-to-follow-container{
     height: 500px;
     border-radius: 20px;
+}
+.who-to-follow_profile_container{
+    flex-direction: row;
+}
+.who-to-follow-container .tweet-post-profile_pic{
+    align-items:center;
+    padding-top: 0;
+}
+.profile-info-wtof{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+}
+.profile-info-wtof{
+    margin: 0;
+}
+.inf-profile-wtof{
+    display: flex;
+    flex-direction: column;
+}
+.wtof-button{
+    width: 70px;
+    height: 30px;
+    border: 1px solid #1EA2F1;
+    border-radius: 20px;
+    background-color: none;
+    color: #1EA2F1;
+    font-weight: bold;
+}
+.who-to-follow-container .tweet-post-profile_pic img{
+    width: 45px;
+    height: 45px;
 }
