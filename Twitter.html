@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <!-- Right Buttons -->
+    <!-- Left Buttons -->
     <nav class="left-sidebar">
         <div class="twitter-logo">
             <img src="icons/Twitter_icon.svg" style="width: 35px;">
@@ -63,9 +63,9 @@
             Tweet
         </button>
     </nav> 
-    <!-- Ends Right Buttons -->   
+    <!-- Ends Left Buttons -->   
 
-    <!-- Left Buttons -->
+    <!-- Right Buttons -->
     <nav class="right-sidebar">
         <div class="search-container">
             <button class="search-button">
@@ -74,13 +74,46 @@
             <input class="search-input" type="text" placeholder="Search Twitter">
         </div>
         <div class="trending-container">
-
+            <div class="tc-upper">
+                <p>Trends for you</p>
+                <img src="icons/tweet_gear.svg" alt="tweet-gear">
+            </div>
+            <div class="trending">
+                <span class="trending-mini">Trending worldwide</span>
+                <span class="trending-strong">#WorldNews</span>
+                <span class="trending-mini">125K Tweets</span>
+                <span class="trending-mini">5,094 people are tweeting about this</span>
+            </div>
+            <div class="trending">
+                <span class="trending-mini">Trending worldwide</span>
+                <span class="trending-strong">#BreakingNews</span>
+                <div class="trending-link">
+                    <div class="t-link-content">
+                        <h3>Google</h3>
+                        <p>This is a link for Google</p>
+                    </div>
+                    <div class="t-link-image">
+                        <img src="tweet_img/image-link.png" alt="trending-link-image">
+                    </div>
+                </div>
+                <span class="trending-mini">11,094 people are tweeting about this</span>
+            </div>
+            <div class="trending" style="border-bottom: 1px solid rgb(238, 238, 238);">
+                <span class="trending-mini">Trending in United States</span>
+                <span class="trending-strong">#BestofUS</span>
+            </div>
+            <div class="show-more">
+                <p>Show more</p>
+            </div>
         </div>
         <div class="who-to-follow-container">
-
+            <div class="wtof-upper">
+                <p>Who to follow</p>
+                <img src="icons/tweet_gear.svg" alt="tweet-gear">
+            </div>
         </div>
     </nav>
-    <!-- Ends Left Buttons -->
+    <!-- Ends Right Buttons -->
 
     <!-- Middle for Home and Tweet -->
     <main>
@@ -114,7 +147,7 @@
 
             </div>
         </section>
-        <div class="tweet-timeline">
+        <section class="tweet-timeline">
             <div class="tweet-post">
                 <div class="tweet-post-profile_pic">
                     <img src="profile_pics/cat2.jpg">
@@ -272,7 +305,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
     <!-- EndsMiddle for Home and Tweet -->
 </body>
